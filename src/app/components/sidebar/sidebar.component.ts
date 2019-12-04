@@ -9,13 +9,19 @@ declare interface RouteInfo {
 }
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard', title: 'Dashboard',  icon: 'dashboard', class: '' },
+    { path: '/ajout', title: 'Ajout',  icon: 'add', class: '' },
+    { path: '/apparition', title: 'Apparition',  icon: '', class: '' },
+    { path: '/caisse', title: 'Caisse',  icon: '', class: '' },
+    { path: '/categorie', title: 'Categorie',  icon: '', class: '' },
+    { path: '/client', title: 'Client',  icon: '', class: '' },
+    { path: '/commande', title: 'Commandes',  icon: '', class: '' },
+    { path: '/consomation', title: 'Consommations',  icon: '', class: '' },
+    { path: '/produit', title: 'Produits',  icon: '', class: '' },
+    { path: '/ticket', title: 'Ticket',  icon: '', class: '' },
+    { path: '/type', title: 'Type ',  icon: '', class: '' },
+    { path: '/vehicle', title: 'Vehicules',  icon: '', class: '' },
     { path: '/user-profile', title: 'User Profile',  icon:'person', class: '' },
-    { path: '/table-list', title: 'Table List',  icon:'content_paste', class: '' },
-    { path: '/typography', title: 'Typography',  icon:'library_books', class: '' },
-    { path: '/icons', title: 'Icons',  icon:'bubble_chart', class: '' },
-    { path: '/maps', title: 'Maps',  icon:'location_on', class: '' },
-    { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
-    { path: '/upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
+
 ];
 
 @Component({
