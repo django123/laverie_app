@@ -24,6 +24,8 @@ import { ProduitComponent } from './produit/produit.component';
 import { TicketComponent } from './ticket/ticket.component';
 import { TypeComponent } from './type/type.component';
 import { VehicleComponent } from './vehicle/vehicle.component';
+import { CreateAjoutComponent } from './create-ajout/create-ajout.component';
+import { DetailAjoutComponent } from './detail-ajout/detail-ajout.component';
 
 
 
@@ -45,6 +47,7 @@ import { VehicleComponent } from './vehicle/vehicle.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+
 
 
 

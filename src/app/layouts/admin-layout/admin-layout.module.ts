@@ -26,6 +26,8 @@ import {ProduitComponent} from "../../produit/produit.component";
 import {VehicleComponent} from "../../vehicle/vehicle.component";
 import {TypeComponent} from "../../type/type.component";
 import {TicketComponent} from "../../ticket/ticket.component";
+import {CreateAjoutComponent} from "../../create-ajout/create-ajout.component";
+import {DetailAjoutComponent} from "../../detail-ajout/detail-ajout.component";
 
 
 @NgModule({
@@ -57,6 +59,8 @@ import {TicketComponent} from "../../ticket/ticket.component";
     TicketComponent,
     TypeComponent,
     VehicleComponent,
+    CreateAjoutComponent,
+    DetailAjoutComponent,
 
 
   ]
